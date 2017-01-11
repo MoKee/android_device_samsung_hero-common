@@ -8,5 +8,5 @@ TARGET_USES_UNCOMPRESSED_KERNEL := true
 
 # Kernel Toolchain
 # - Default toolchain has some compatibility problems with Exynos Kernel.
-KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.0/bin
+#KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
+#KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.0/bin
