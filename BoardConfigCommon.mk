@@ -38,6 +38,7 @@ EXTENDED_FONT_FOOTPRINT := true
 
 # Image
 BOARD_KERNEL_SEPARATED_DT := true
+BOARD_CUSTOM_BOOTIMG := true
 BOARD_CUSTOM_BOOTIMG_MK := device/samsung/hero-common/mkbootimg.mk
 TARGET_CUSTOM_DTBTOOL := dtbToolExynos
 
@@ -52,8 +53,8 @@ BLOCK_BASED_OTA := false
 WITH_DEXPREOPT := true
 
 # Renderscript
-BOARD_OVERRIDE_RS_CPU_VARIANT_32 := cortex-a53
-BOARD_OVERRIDE_RS_CPU_VARIANT_64 := cortex-a57
+BOARD_OVERRIDE_RS_CPU_VARIANT_32 := cortex-a53.a57
+BOARD_OVERRIDE_RS_CPU_VARIANT_64 := exynos-m1
 
 # SELinux
 BOARD_SEPOLICY_DIRS := device/samsung/hero-common/sepolicy
